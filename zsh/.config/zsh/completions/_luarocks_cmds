@@ -1,0 +1,28 @@
+_luarocks_cmds() {
+  local -a commands=(
+    "help:Show help for commands"
+    "completion:Output a shell completion script"
+    "build:Build/compile a rock"
+    "config:Query information about the LuaRocks configuration"
+    "doc:Show documentation for an installed rock"
+    "download:Download a specific rock file from a rocks server"
+    "init:Initialize a directory for a Lua project using LuaRocks"
+    "install:Install a rock"
+    "lint:Check syntax of a rockspec"
+    "list:List currently installed rocks"
+    "make:Compile package in current directory using a rockspec"
+    {new_version,new-version}":Auto-write a rockspec for a new version of a rock"
+    "pack:Create a rock, packing sources or binaries"
+    "path:Return the currently configured package path"
+    "purge:Remove all installed rocks from a tree"
+    "remove:Uninstall a rock"
+    "search:Query the LuaRocks servers"
+    "show:Show information about an installed rock"
+    "test:Run the test suite in the current directory"
+    "unpack:Unpack the contents of a rock"
+    "upload:Upload a rockspec to the public rocks repository"
+    "which:Tell which file corresponds to a given module name"
+    {write_rockspec,write-rockspec}":Write a template for a rockspec file"
+  )
+  _describe "command" commands
+}
