@@ -13,8 +13,16 @@ return {
   { import = "astrocommunity.completion.copilot-vim" },
   { import = "astrocommunity.scrolling.neoscroll-nvim" },
   { import = "astrocommunity.color.transparent-nvim" },
-  { import = "astrocommunity.split-and-window.neominimap-nvim" },
+  { import = "astrocommunity.bars-and-lines.bufferline-nvim" },
+  { import = "astrocommunity.bars-and-lines.vim-illuminate" },
+  { import = "astrocommunity.motion.mini-jump" },
+  { import = "astrocommunity.motion.mini-move" },
+  { import = "astrocommunity.motion.mini-surround" },
+  { import = "astrocommunity.split-and-window.mini-map" },
   { import = "astrocommunity.colorscheme.tokyonight-nvim" },
   { import = "astrocommunity.terminal-integration.vim-tmux-navigator" },
+  { import = "astrocommunity.fuzzy-finder.telescope-nvim" },
+  { import = "astrocommunity.file-explorer.telescope-file-browser-nvim" },
+  { import = "astrocommunity.markdown-and-latex.markview-nvim" },
   -- import/override with your plugins folder
 }
