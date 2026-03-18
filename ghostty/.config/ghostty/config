@@ -52,4 +52,7 @@ background-opacity = 0.75
 background-blur = 25
 theme = TokyoNight Night
 font-family = FiraCode Nerd Font
+window-theme = ghostty
+custom-shader = shaders/cursor_warp.glsl
+
 
