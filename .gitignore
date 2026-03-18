@@ -1,0 +1,6 @@
+# opencode
+opencode/install.sh
+opencode/.config/opencode/env.example
+
+# open agent control
+.tmp
