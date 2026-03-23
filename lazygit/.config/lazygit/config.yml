@@ -1,0 +1,6 @@
+customCommands:
+  - key: "V"
+    context: "commits"
+    description: "Amend (no-verify)"
+    command: "git commit --amend --no-edit --no-verify"
+    loadingText: "Amending..."
