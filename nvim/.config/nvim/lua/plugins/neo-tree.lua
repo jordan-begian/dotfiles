@@ -31,7 +31,6 @@ return {
           ".steam",
           ".swt",
           ".terraform.d",
-          ".tmux",
           ".vscode",
           ".vscode-oss",
           ".w3m",
