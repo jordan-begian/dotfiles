@@ -13,7 +13,6 @@ return {
   { import = "astrocommunity.completion.copilot-vim" },
   { import = "astrocommunity.scrolling.neoscroll-nvim" },
   { import = "astrocommunity.color.transparent-nvim" },
-  { import = "astrocommunity.bars-and-lines.vim-illuminate" },
   { import = "astrocommunity.motion.mini-jump" },
   { import = "astrocommunity.motion.mini-move" },
   { import = "astrocommunity.motion.mini-surround" },

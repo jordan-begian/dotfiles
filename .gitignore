@@ -4,3 +4,6 @@ opencode/.config/opencode/env.example
 
 # open agent control
 .tmp
+
+# Directory for legacy configs
+.archive
