@@ -24,6 +24,5 @@ return {
   { import = "astrocommunity.markdown-and-latex.markview-nvim" },
   { import = "astrocommunity.pack.hurl" },
   { import = "astrocommunity.pack.go" },
-  { import = "astrocommunity.pack.golangci-lint" },
   -- import/override with your plugins folder
 }
