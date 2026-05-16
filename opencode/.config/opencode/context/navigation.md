@@ -9,7 +9,7 @@
 ## Structure
 
 ```
-/home/jordan/dotfiles/opencode/.config/opencode/context/
+~/.config/opencode/context/
 ├── core/                   # Universal standards & workflows
 ├── openagents-repo/        # OpenAgents Control repository work
 ├── development/            # Software development (all stacks)

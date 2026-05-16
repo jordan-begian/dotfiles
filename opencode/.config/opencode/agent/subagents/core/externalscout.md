@@ -288,7 +288,7 @@ permission:
 If Context7 API fails:
 1. Try fallback→Fetch from official docs using `webfetch`
 2. Return error with official docs link
-3. Suggest checking `/home/jordan/dotfiles/opencode/.config/opencode/context/` for cached docs
+3. Suggest checking `~/.config/opencode/context/` for cached docs
 
 ---
 # OpenCode Agent Configuration
