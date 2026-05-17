@@ -71,6 +71,28 @@ return {
           desc = "Close buffer from tabline",
         },
 
+        -- close buffer and open file picker if last buffer
+        ["<Leader>c"] = {
+          function()
+            local bufs = vim.fn.getbufinfo { buflisted = true }
+            require("astrocore.buffer").close(0)
+            if not bufs[2] then
+              -- Open file picker directly instead of dashboard (avoids neo-tree conflict)
+              -- Show all files recursively including hidden files from all subdirectories
+              vim.schedule(function()
+                require("snacks").picker.files {
+                  hidden = true, -- Show hidden files (dotfiles)
+                  ignored = false, -- Don't show gitignored files (set to true if needed)
+                  follow = true, -- Follow symlinks
+                  -- Ensure we search all directories recursively
+                  dirs = { vim.fn.getcwd() }, -- Start from current working directory
+                }
+              end)
+            end
+          end,
+          desc = "Close buffer",
+        },
+
         -- tables with just a `desc` key will be registered with which-key if it's installed
         -- this is useful for naming menus
         -- ["<Leader>b"] = { desc = "Buffers" },
